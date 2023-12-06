@@ -140,7 +140,7 @@ const App = () => {
                             <ul>
                             <li><a className={styles.textHover} href="">Deploy a full-stack e-commerce app
 <span className={styles.date}>Dec 21, 2023</span></a></li>
-                                <li><a className={styles.textHover} href="">Should you Implement Authentication Yourself?
+                                <li><a className={styles.textHover} href="">Should you implement Authentication yourself?
 <span className={styles.date}>Mar 21, 2023</span></a></li>
                                 <li><a href="">How to code a compiler
 <span className={styles.date}>Jan 17, 2023</span></a></li>
