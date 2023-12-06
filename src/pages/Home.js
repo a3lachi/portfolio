@@ -3,7 +3,8 @@ import LanBlock from '../components/LanBlock';
 import { Link } from "react-router-dom";
 import Footer from '../components/Footer';
 import Datano from "../assets/projects/datano.png" ;
-import Bapz from "../assets/projects/bapzvscode.png"
+import Bapz from "../assets/projects/bapzvscode.png";
+import Compiler from "../assets/projects/compiler.png";
 
 
 const Home = () => {
@@ -103,12 +104,12 @@ const Home = () => {
                                     <div id="projectText" className={styles.projectText}><h3>Full stack e-commerce</h3><p></p><p>I built this e-commerce website out of liking Bape clothing, I used Django in the backend and React in the frontend.</p><p></p></div>
                                 </div>
                             </Link>
-                            <a className={styles.projectWrapperFour}  href="https://app.com/projects/dorker"  >
+                            <a className={styles.projectWrapperFour}  href="/projects/compiler"  >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src="./dorker.png" />
+                                        <img src={Compiler} width={500} />
                                     </div>
-                                    <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
+                                    <div id="projectText" className={styles.projectText}><h3>Compiler</h3><p></p><p>This project involves the development of a compiled programming language in C and Python.</p><p></p></div>
                                 </div>
                             </a>
                             <a className={styles.projectWrapperFive}  href="https://app.com/projects/dorker" >
