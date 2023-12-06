@@ -77,7 +77,7 @@ const Home = () => {
                     </div>
                     
                 </div>
-                <div  id="projects" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
+                <div  id="projectss" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
                     <div style={{ width:'760px' , paddingTop:'40px' , padding:'20px' , margin:'0 auto'}} >
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I have worked on</h2>
                         <div className={styles.projectsContainer}>
@@ -138,7 +138,7 @@ const Home = () => {
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px' , paddingBottom:'0px'}}>Posts I have written</h2>
                         <div className={styles.writes}>
                             <ul>
-                            <li><a className={styles.textHover} href="">Deploy a full-stack e-commerce app
+                            <li><a className={styles.textHover} href="/posts/deploy">Deploy a full-stack e-commerce app
 <span className={styles.date}>Dec 21, 2023</span></a></li>
                                 <li><a className={styles.textHover} href="">Should you implement Authentication yourself?
 <span className={styles.date}>Mar 21, 2023</span></a></li>

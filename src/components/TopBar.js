@@ -8,7 +8,7 @@ const TopBar = () => {
 
     const returnToProjects = async () => {
         await Navigate('/');
-        var elem = document.getElementById("projects");
+        var elem = document.getElementById("projectss");
         elem.scrollIntoView({ behavior: "smooth" });
     }
       
