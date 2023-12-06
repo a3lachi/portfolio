@@ -1,0 +1,388 @@
+.main {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100vh;
+    max-width: 100% ;
+    overflow-x: hidden
+}
+
+.body {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing{
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+}
+
+.arrow {
+    animation: slide1 1s ease-in-out infinite
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+
+
+
+.about{
+    z-index: 2;
+    box-shadow: 0px -30px 40px -6px rgba(0, 0, 0, 0.44);
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+
+
+
+.stack {
+    background-color: black;
+    width: 50vw;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .tools {
+    background-color: white;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px 10px;
+    /* border-right: 5px solid white;
+    border-bottom: 5px solid white; */
+  }
+  
+  .lanzwrap {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .lanz{
+    display: flex;
+    gap: 60px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+.project{
+    background-color: #fcfcfc;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #22313f;
+    color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+    transition: z-index 2s ease-out;
+
+}
+
+.projectImage{
+    max-width: 320px;
+    max-height: 320px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    transition: 0.5s ease-out;
+
+}
+
+
+.projectText{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    border-radius: 5px;
+    top: 320px;
+    transition: 0.5s ease-out;
+}
+
+.project:hover  .projectText{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    border-radius: 5px;
+    top: 0px;
+    transition: 0.5s ease-out;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.projectWrapper:hover  {
+    transition: 1s;
+    z-index: 100;
+}
+
+.projectText p{
+    font-family: "Verdana";
+    padding: 20px;
+    padding-top: 0;
+    font-size: 0.8em;
+    width: 280px;
+}
+
+.projectText h3{
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.projectsContainer a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 340px;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0px;
+    justify-content: left;
+    width: 70vw;
+}
+
+
+
+
+.projectWrapperOne{
+    z-index: 10;
+    margin-left: -100px;
+}
+
+.projectWrapperTwo{
+    z-index: 20;
+    margin-top: 100px;
+    margin-left: -100px;
+
+}
+
+.projectWrapperThree{
+    z-index: 10;
+    margin-left: -100px;
+}
+
+.projectWrapperFour{
+    z-index: 20;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.projectWrapperFive{
+    z-index: 20;
+    margin-top: -100px;
+    margin-left: -130px;
+}
+
+.projectWrapperSix{
+    z-index: 50;
+    margin-top: 0px;
+    margin-left: -100px;
+}
+
+.projectWrapperOne:hover{
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+    
+}
+
+.projectWrapperTwo:hover {
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.projectWrapperThree:hover {
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.projectWrapperFour:hover {
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.projectWrapperFive:hover {
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.projectWrapperSix:hover {
+    z-index: 100;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 980px) {
+    .projectsContainer a {
+      left: 0px;
+    }
+    .projectsContainer {
+        flex-direction: column;
+    }
+
+    .projectWrapperOne {
+        margin: 0;
+    }
+
+    .projectWrapperTwo {
+        margin: 0;
+    }
+    .projectWrapperThree {
+        margin: 0;
+    }
+
+    .projectWrapperFour {
+        margin: 0;
+    }
+
+    .projectWrapperFive {
+        margin: 0;
+    }
+
+    .projectWrapperSix {
+        margin: 0;
+    }
+
+    .lanzwrap{
+        width: 90%;
+        padding: 0;
+        margin-top: 67px;
+    }
+}
+
+.writes{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.writes ul {
+    padding: 20px;
+}
+
+.writes li {
+    position: relative;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-bottom: 1px dashed #ffffff;
+    margin-top: 30px;
+}
+
+.writes a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.date{
+    display: block;
+    width: 100%;
+    font-size: .7em;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.writes a:hover{
+    color: #4abdac;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.contact{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contact p{
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0;
+    color: #22313f;
+    font-size: 16px;
+}
+
+.contact p a{
+    color: #22313f;
+    text-decoration: none;
+    border-bottom: 1px dashed #22313f;
+    transition: 0.3s;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.contact p .social a {
+    border: none;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 30px;
+    font-weight: lighter;
+}
