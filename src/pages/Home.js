@@ -1,6 +1,8 @@
 import styles from './Home.module.css';
 import LanBlock from '../components/LanBlock';
 import { Link } from "react-router-dom";
+import Footer from '../components/Footer';
+import Datano from "../assets/projects/datano.png" ;
 
 
 const Home = () => {
@@ -79,19 +81,19 @@ const Home = () => {
                             <Link className={styles.projectWrapperOne} to="/projects/dorker" >
                                 <div id="1" className={styles.project} >
                                     <div className={styles.projectImage}>
-                                        <img src="./dorker.png" />
+                                        <img src="./dorker.png"/>
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
                                 </div>
                             </Link>
-                            <a className={styles.projectWrapperTwo}  href="https://app.com/projects/dorker">
+                            <Link className={styles.projectWrapperTwo} to="/projects/datano" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src="./dorker.png" />
+                                        <img src={Datano} width={500} />
                                     </div>
-                                    <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
+                                    <div id="projectText" className={styles.projectText}><h3>Image Annotation</h3><p></p><p>An image annotation tool built with React using Canvas. </p><p></p></div>
                                 </div>
-                            </a>
+                            </Link>
                             <a className={styles.projectWrapperThree}  href="https://app.com/projects/dorker">
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
@@ -146,13 +148,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div  style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'10vh' }} >
-                <div className={styles.contact}><p>Contact me by <a href="mailto:mad.aalachi@gmail.com">mail</a>
-<span className={styles.social}><a href="http://www.github.com/a3lachi"><img src="img/github.svg" width={20} /></a>
-<a href="https://www.linkedin.com//"><img src="img/linkedin.svg" width={20} /></a>
-<a href="https://twitter.com/a3laxi"><img src="img/twitter.svg" width={20} /></a></span>
-<span className={styles.copyright}>© 2022 - 2023</span></p></div>
-                </div>
+                <Footer />
 
             </div>
 
