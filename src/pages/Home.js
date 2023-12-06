@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Datano from "../assets/projects/datano.png" ;
 import Bapz from "../assets/projects/bapzvscode.png";
 import Compiler from "../assets/projects/compiler.png";
+import Webmac from "../assets/projects/webmac.png"
 
 
 const Home = () => {
@@ -112,22 +113,22 @@ const Home = () => {
                                     <div id="projectText" className={styles.projectText}><h3>Compiler</h3><p></p><p>This project involves the development of a compiled programming language in C and Python.</p><p></p></div>
                                 </div>
                             </a>
-                            <a className={styles.projectWrapperFive}  href="https://app.com/projects/dorker" >
+                            <a className={styles.projectWrapperFive}  href="/projects/webmac" >
+                                <div className={styles.project}>
+                                    <div className={styles.projectImage}>
+                                        <img src={Webmac}  width={500}  />
+                                    </div>
+                                    <div id="projectText" className={styles.projectText}><h3>Webmac</h3><p></p><p>A macOs style portfolio.</p><p></p></div>
+                                </div>
+                            </a>
+                            {/* <a className={styles.projectWrapperSix}  href="https://app.com/projects/dorker" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
                                         <img src="./dorker.png" />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
                                 </div>
-                            </a>
-                            <a className={styles.projectWrapperSix}  href="https://app.com/projects/dorker" >
-                                <div className={styles.project}>
-                                    <div className={styles.projectImage}>
-                                        <img src="./dorker.png" />
-                                    </div>
-                                    <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
-                                </div>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

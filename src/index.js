@@ -8,6 +8,7 @@ import ProjectBapz from './pages/ProjectBapz';
 import ProjectCompiler from './pages/ProjectCompiler';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ProjectWebmac from './pages/ProjectWebmac';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path="/projects/datano" element={<ProjectDatano />} />
         <Route path="/projects/bapz" element={<ProjectBapz />} />
         <Route path="/projects/compiler" element={<ProjectCompiler />} />
+        <Route path="/projects/webmac" element={<ProjectWebmac />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
