@@ -3,6 +3,7 @@ import LanBlock from '../components/LanBlock';
 import { Link } from "react-router-dom";
 import Footer from '../components/Footer';
 import Datano from "../assets/projects/datano.png" ;
+import Bapz from "../assets/projects/bapzvscode.png"
 
 
 const Home = () => {
@@ -94,14 +95,14 @@ const Home = () => {
                                     <div id="projectText" className={styles.projectText}><h3>Image Annotation</h3><p></p><p>An image annotation tool built with React using Canvas. </p><p></p></div>
                                 </div>
                             </Link>
-                            <a className={styles.projectWrapperThree}  href="https://app.com/projects/dorker">
+                            <Link className={styles.projectWrapperThree}  to="/projects/bapz">
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src="./dorker.png" />
+                                        <img src={Bapz} width={500}  />
                                     </div>
-                                    <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
+                                    <div id="projectText" className={styles.projectText}><h3>Full stack e-commerce</h3><p></p><p>I built this e-commerce website out of liking Bape clothing, I used Django in the backend and React in the frontend.</p><p></p></div>
                                 </div>
-                            </a>
+                            </Link>
                             <a className={styles.projectWrapperFour}  href="https://app.com/projects/dorker"  >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>

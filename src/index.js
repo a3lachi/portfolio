@@ -4,6 +4,7 @@ import './index.css';
 import Home from './pages/Home';
 import ProjectDorker from './pages/ProjectDorker';
 import ProjectDatano from './pages/ProjectDatano';
+import ProjectBapz from './pages/ProjectBapz';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/projects/dorker" element={<ProjectDorker />} />
         <Route path="/projects/datano" element={<ProjectDatano />} />
+        <Route path="/projects/bapz" element={<ProjectBapz />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
