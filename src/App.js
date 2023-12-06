@@ -136,18 +136,18 @@ const App = () => {
                 <div  style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , minHeight:'100vh' , paddingBottom:'50px'}} >
                     <div style={{maxWidth:'960px' , margin:'0 auto'}}>
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px'}}>Posts I have written</h2>
-                        <div class={styles.writes}><ul><li><a className={styles.textHover} href="https://hamza-tam.gitlab.io/posts/why-you-dont-need-to-remap-the-escape-key-in-vim/">Why you don't need to remap the escape key in Vim !
-<span class={styles.date}>Sep 21, 2020</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/interface-implementation-difference-across-difference/">Interface implementation difference cross languages
-<span class={styles.date}>May 25, 2020</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/framework-vs-library-vs-package-vs-module/">Framework vs library vs package vs module: The debate
-<span class={styles.date}>Apr 16, 2020</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/the-different-types-of-method-specifications/">The different types of method specifications
-<span class={styles.date}>Apr 08, 2020</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/why-some-think-++i-is-faster-than-i++/">Why some think ++i is faster than i++ ?
-<span class={styles.date}>Nov 19, 2019</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/wsl-2.0-more-of-the-good-juice/">WSL 2.0: More of the good juice
-<span class={styles.date}>Jul 02, 2019</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/unix-bash-shell-vs-windows-powershell-two-paradigms/">*nix Bash shell vs Windows PowerShell: Two paradigms
-<span class={styles.date}>Feb 15, 2019</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/the-history-behind-greps-name/">The history behind "grep"'s name
-<span class={styles.date}>Jan 07, 2019</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/my-experience-with-sass/">My experience with Sass
-<span class={styles.date}>Sep 08, 2018</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/coding-in-binary-code-a-thing/">Coding in Binary Code ! A thing ?
-<span class={styles.date}>Mar 25, 2018</span></a></li><li><a href="https://hamza-tam.gitlab.io/posts/vim-for-starters-the-minimum-you-need-to-know/">Vim for starters - the minimum you need to know
-<span class={styles.date}>Dec 25, 2017</span></a></li></ul></div>
+                        <div class={styles.writes}>
+                            <ul>
+                            <li><a className={styles.textHover} href="">Deploy a full-stack e-commerce app
+<span class={styles.date}>Dec 21, 2023</span></a></li>
+                                <li><a className={styles.textHover} href="">Should you Implement Authentication Yourself?
+<span class={styles.date}>Mar 21, 2023</span></a></li>
+                                <li><a href="">How to code a compiler
+<span class={styles.date}>Jan 17, 2023</span></a></li>
+                                <li><a href="">Vim for starters - the minimum you need to know
+<span class={styles.date}>Dec 25, 2022</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
