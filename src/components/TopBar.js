@@ -1,5 +1,7 @@
 import { useNavigate , Link} from "react-router-dom";
-import styles from './TopBar.module.css'
+import styles from './TopBar.module.css';
+import { useEffect } from "react";
+
 
 
 const TopBar = () => {
@@ -12,6 +14,12 @@ const TopBar = () => {
         elem.scrollIntoView({ behavior: "smooth" });
     }
       
+    useEffect(()=> {
+        var rot = document.getElementById("root")
+        console.log(rot)
+        rot.scrollIntoView();
+        
+    })
 
     return(
         <div className={styles.topbar}>
