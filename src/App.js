@@ -133,7 +133,7 @@ const App = () => {
                     </div>
                 </div>
 
-                <div  style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , minHeight:'100vh' , paddingBottom:'50px'}} >
+                <div  style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , height:'auto' , paddingBottom:'50px'}} >
                     <div style={{maxWidth:'960px' , margin:'0 auto'}}>
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px'}}>Posts I have written</h2>
                         <div class={styles.writes}>
