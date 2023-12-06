@@ -10,8 +10,7 @@ const ProjectBapz = () => {
 
     return(
         <div>
-            <TopBar />
-
+            <TopBar id="projectss" />
             <div className={styles.postcontainer}>
                 <h1 className={styles.posttitle}>Full stack e-commerce</h1>
                 <p>

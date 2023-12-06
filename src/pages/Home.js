@@ -133,7 +133,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div  style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , height:'auto' , paddingBottom:'50px'}} >
+                <div id="posts" style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , height:'auto' , paddingBottom:'50px'}} >
                     <div style={{maxWidth:'960px' , margin:'0 auto'}}>
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px' , paddingBottom:'0px'}}>Posts I have written</h2>
                         <div className={styles.writes}>
@@ -142,7 +142,7 @@ const Home = () => {
 <span className={styles.date}>Dec 21, 2023</span></a></li>
                                 <li><a className={styles.textHover} href="">Should you implement Authentication yourself?
 <span className={styles.date}>Mar 21, 2023</span></a></li>
-                                <li><a href="">How to code a compiler
+                                <li><a href="">Coding a compiler
 <span className={styles.date}>Jan 17, 2023</span></a></li>
                                 <li><a href="">what's all the hype around Vim ?
 <span className={styles.date}>Dec 25, 2022</span></a></li>
