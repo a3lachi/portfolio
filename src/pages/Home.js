@@ -1,8 +1,9 @@
-import styles from './App.module.css';
-import LanBlock from './components/LanBlock';
+import styles from './Home.module.css';
+import LanBlock from '../components/LanBlock';
+import { Link } from "react-router-dom";
 
 
-const App = () => {
+const Home = () => {
 
     const scrollToAbout = () => {
         console.log('scrolling')
@@ -10,12 +11,6 @@ const App = () => {
         elmntToView.scrollIntoView({behavior:"smooth"});
     }
 
-    const changeZindex = (target,indx) => {
-        console.log('a'+target.target.id)
-        var a = 'a'+target.target.id
-        var elem = document.getElementById(a)
-        if (elem) {elem.style.zIndex = indx}
-    }
   return (
     <main className={styles.main}>
             <div className={styles.container}>
@@ -77,18 +72,18 @@ const App = () => {
                     </div>
                     
                 </div>
-                <div  style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
+                <div  id="projects" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
                     <div style={{ width:'760px' , paddingTop:'40px' , padding:'20px' , margin:'0 auto'}} >
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I have worked on</h2>
                         <div className={styles.projectsContainer}>
-                            <a className={styles.projectWrapperOne} href="https://app.com/projects/dorker" >
+                            <Link className={styles.projectWrapperOne} to="/projects/dorker" >
                                 <div id="1" className={styles.project} >
                                     <div className={styles.projectImage}>
                                         <img src="./dorker.png" />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
                                 </div>
-                            </a>
+                            </Link>
                             <a className={styles.projectWrapperTwo}  href="https://app.com/projects/dorker">
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
@@ -144,7 +139,7 @@ const App = () => {
 <span className={styles.date}>Mar 21, 2023</span></a></li>
                                 <li><a href="">How to code a compiler
 <span className={styles.date}>Jan 17, 2023</span></a></li>
-                                <li><a href="">Vim for starters - the minimum you need to know
+                                <li><a href="">what's all the hype around Vim ?
 <span className={styles.date}>Dec 25, 2022</span></a></li>
                             </ul>
                         </div>
@@ -166,4 +161,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Home;
