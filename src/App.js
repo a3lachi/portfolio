@@ -36,11 +36,11 @@ const App = () => {
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Who am I</h2>
                             <p>I have always been passionate about building software, always strove to learn more, discover technologies
-                            and understand the different paradigms behind each one of them. <span style={{fontWeight:'bold'}} class="bold">The goal of my journey
-                            is to understand the secrets behind good software</span> and its success.</p><p>As a result of this life long learning process, I am able to <span class="bold">design</span> and write
-                            <span style={{fontWeight:'bold'}} class="bold"> modular, expandable and clean software</span>. I always try to <span style={{fontWeight:'bold'}} class="bold">solve
+                            and understand the different paradigms behind each one of them. <span style={{fontWeight:'bold'}} className="bold">The goal of my journey
+                            is to understand the secrets behind good software</span> and its success.</p><p>As a result of this life long learning process, I am able to <span className="bold">design</span> and write
+                            <span style={{fontWeight:'bold'}} className="bold"> modular, expandable and clean software</span>. I always try to <span style={{fontWeight:'bold'}} className="bold">solve
                             problems in a language agnostic-manner</span>, in order to choose the most suited technology to the
-                            problem at hand.</p><p><span style={{fontWeight:'bold'}} class="bold">I believe in this being the main purpose of a software engineer !</span></p>
+                            problem at hand.</p><p><span style={{fontWeight:'bold'}} className="bold">I believe in this being the main purpose of a software engineer !</span></p>
                         </div> 
                         
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
@@ -135,17 +135,17 @@ const App = () => {
 
                 <div  style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , height:'auto' , paddingBottom:'50px'}} >
                     <div style={{maxWidth:'960px' , margin:'0 auto'}}>
-                        <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px'}}>Posts I have written</h2>
-                        <div class={styles.writes}>
+                        <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px' , paddingBottom:'0px'}}>Posts I have written</h2>
+                        <div className={styles.writes}>
                             <ul>
                             <li><a className={styles.textHover} href="">Deploy a full-stack e-commerce app
-<span class={styles.date}>Dec 21, 2023</span></a></li>
+<span className={styles.date}>Dec 21, 2023</span></a></li>
                                 <li><a className={styles.textHover} href="">Should you Implement Authentication Yourself?
-<span class={styles.date}>Mar 21, 2023</span></a></li>
+<span className={styles.date}>Mar 21, 2023</span></a></li>
                                 <li><a href="">How to code a compiler
-<span class={styles.date}>Jan 17, 2023</span></a></li>
+<span className={styles.date}>Jan 17, 2023</span></a></li>
                                 <li><a href="">Vim for starters - the minimum you need to know
-<span class={styles.date}>Dec 25, 2022</span></a></li>
+<span className={styles.date}>Dec 25, 2022</span></a></li>
                             </ul>
                         </div>
                     </div>
