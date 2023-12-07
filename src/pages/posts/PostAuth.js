@@ -11,7 +11,7 @@ const PostAuth = () => {
         <div>
             <TopBar id="posts" />
 
-                <div className={styles.postcontainer} style={{ width:'700px'}}>
+                <div className={styles.postcontainer}>
                     <h1 className={styles.posttitle}>Should you implement Authentication yourself ?</h1>
                     <p>
                     I did lookup lately some services that handles authentication for you, handling user data, logins, sign-ups, and password retrieval - all the irritating authentication chores. Two big names that come to mind are Auth0 (I really dislike that name it mixes with the protocol name) and Amazon Cognito. Usually, I don't lean towards using these services. I prefer doing authentication myself, not starting from scratch but customizing it to fit my needs with some help from libraries.
@@ -26,7 +26,7 @@ const PostAuth = () => {
                     </p>
 
                     <p>
-                        The problems related to security comes to mind if one is thinking about implementing his own authentication in a large scale or in entreprise level, that’s where managed systems like Auth0 or Amazon Cognito comes to play with guaranteed. While they have security experts, I'm not entirely convinced they're inherently more secure than well-tested open-source alternatives like Passport.js for Node.js. I feel these companies might exaggerate authentication complexity to drive users toward their services.
+                        The problems related to security comes to mind if one is thinking about implementing his own authentication in a large scale or in entreprise level, that’s where managed systems like Auth0 or Amazon Cognito comes to play with guarantee. While they have security experts, I'm not entirely convinced they're inherently more secure than well-tested open-source alternatives like Passport.js for Node.js. I feel these companies might exaggerate authentication complexity to drive users toward their services.
                     </p>
 
                     <p>

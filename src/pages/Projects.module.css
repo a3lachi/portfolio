@@ -22,3 +22,20 @@
     width: 100%;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
+@media only screen and (max-width: 980px) {
+
+    .postcontainer {
+        width: 100%;
+    }
+    .postcontainer p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .postcontainer h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
