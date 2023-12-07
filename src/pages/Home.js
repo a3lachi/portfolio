@@ -6,6 +6,7 @@ import Datano from "../assets/projects/datano.png" ;
 import Bapz from "../assets/projects/bapzvscode.png";
 import Compiler from "../assets/projects/compiler.png";
 import Webmac from "../assets/projects/webmac.png"
+import Skills from '../components/Skills';
 
 
 const Home = () => {
@@ -45,10 +46,8 @@ const Home = () => {
                         
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I believe in</h2>
-                            <h2>Good Design</h2> <p> The design is the most important phase of any software project. That's why I gathered important skill in that field to be able to make good software.</p>
-                            <h2>Clean Development</h2> <p>The development phase can't be accomplished successfully without writing a code that checks all the requirement of a good one, like the K.I.S.S principle.</p>
-                            <h2>Quality Software</h2> <p>A clean code and good design can't be enough if not coupled with other important qualities like extensibility, modularity or reusability. All of those pieces come together to create quality software.</p>
-                        </div>
+                            <Skills />
+                            </div>
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Programming languages I use</h2>
 
