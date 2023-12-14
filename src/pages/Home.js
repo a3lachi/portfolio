@@ -137,10 +137,21 @@ const Home = () => {
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px' , paddingBottom:'0px'}}>Posts I have written</h2>
                         <div className={styles.writes}>
                             <ul>
-                            <li><a className={styles.textHover} href="/posts/deploy">Deploy a full-stack e-commerce app
-<span className={styles.date}>Dec 21, 2023</span></a></li>
-                                <li><a className={styles.textHover} href="/posts/auth">Should you implement Authentication yourself?
-<span className={styles.date}>Mar 21, 2023</span></a></li>
+                                <li>
+                                    <a className={styles.textHover} href="/posts/front">Front-end development is not software engineering
+                                        <span className={styles.date}>Dec 21, 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className={styles.textHover} href="/posts/deploy">Deploy a full-stack e-commerce app
+                                        <span className={styles.date}>Dec 21, 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className={styles.textHover} href="/posts/auth">Should you implement Authentication yourself?
+                                        <span className={styles.date}>Mar 21, 2023</span>
+                                    </a>
+                                </li>
                                 <li><a href="">Coding a compiler
 <span className={styles.date}>Jan 17, 2023</span></a></li>
                                 <li><a href="">what's all the hype around Vim ?

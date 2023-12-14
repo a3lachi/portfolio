@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ProjectWebmac from './pages/ProjectWebmac';
 import PostAuth from './pages/posts/PostAuth';
+import PostFront from './pages/posts/PostFront';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
 
         <Route path="/posts/deploy" element={<PostDeploy />} />
         <Route path="/posts/auth" element={<PostAuth />} />
+        <Route path="/posts/front" element={<PostFront />} />
 
 
       </Routes>
