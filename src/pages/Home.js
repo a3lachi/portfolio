@@ -152,10 +152,16 @@ const Home = () => {
                                         <span className={styles.date}>Mar 21, 2023</span>
                                     </a>
                                 </li>
-                                <li><a href="">Coding a compiler
-<span className={styles.date}>Jan 17, 2023</span></a></li>
-                                <li><a href="">what's all the hype around Vim ?
-<span className={styles.date}>Dec 25, 2022</span></a></li>
+                                <li>
+                                    <a className={styles.textHover}  href="">Coding a compiler
+                                        <span className={styles.date}>Jan 17, 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className={styles.textHover}  href="">What's all the hype around Vim ?
+                                        <span className={styles.date}>Dec 25, 2022</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
