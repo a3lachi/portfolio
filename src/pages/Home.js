@@ -62,7 +62,7 @@ const Home = () => {
                                     <LanBlock ext=".java" lan="Java" />
                                     <LanBlock ext=".ts" lan="Typescript" />
                                     <LanBlock ext=".sql" lan="PLSQL" />
-                                    <LanBlock ext=".rb" lan="Ruby" />
+                                    <LanBlock ext=".rs" lan="Rust" />
                                     <LanBlock ext=".hs" lan="Haskell" />
                                     
                                 </div>
