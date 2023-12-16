@@ -18,7 +18,7 @@ const ProjectCompiler = () => {
                     <img src={Compiler} alt="compiler" />
                 </p>
                 <p>
-                    This project involves the development of a compiled programming language in C and Python.
+                    This project involves the development of a compiled programming language in C.
                 </p>
             </div>
 
