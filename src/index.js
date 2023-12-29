@@ -6,12 +6,12 @@ import ProjectDorker from './pages/ProjectDorker';
 import ProjectDatano from './pages/ProjectDatano';
 import ProjectBapz from './pages/ProjectBapz';
 import ProjectCompiler from './pages/ProjectCompiler';
-import PostDeploy from './pages/posts/PostDeploy';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ProjectWebmac from './pages/ProjectWebmac';
 import PostAuth from './pages/posts/PostAuth';
 import PostFront from './pages/posts/PostFront';
+import PostVim from './pages/posts/PostVim';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +26,7 @@ root.render(
         <Route path="/projects/compiler" element={<ProjectCompiler />} />
         <Route path="/projects/webmac" element={<ProjectWebmac />} />
 
-        <Route path="/posts/deploy" element={<PostDeploy />} />
+        <Route path="/posts/vim" element={<PostVim />} />
         <Route path="/posts/auth" element={<PostAuth />} />
         <Route path="/posts/front" element={<PostFront />} />
 

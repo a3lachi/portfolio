@@ -32,7 +32,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
+                <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
                         <img src={"/me.jpg"} alt="myphoto" width={700}  />
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Who am I</h2>
@@ -62,8 +62,8 @@ const Home = () => {
                                     <LanBlock ext=".java" lan="Java" />
                                     <LanBlock ext=".ts" lan="Typescript" />
                                     <LanBlock ext=".sql" lan="PLSQL" />
-                                    <LanBlock ext=".rs" lan="Rust" />
-                                    <LanBlock ext=".hs" lan="Haskell" />
+                                    {/* <LanBlock ext=".rs" lan="Rust" />
+                                    <LanBlock ext=".hs" lan="Haskell" /> */}
                                     
                                 </div>
                                 </div>
@@ -148,8 +148,8 @@ const Home = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className={styles.textHover}  href="">What's all the hype around Vim ?
-                                        <span className={styles.date}>Nov 20, 2022</span>
+                                    <a className={styles.textHover}  href="/posts/vim">What's all the hype around Vim ?
+                                        <span className={styles.date}>Nov 20, 2023</span>
                                     </a>
                                 </li>
                             </ul>
