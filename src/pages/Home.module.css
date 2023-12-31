@@ -60,7 +60,55 @@
     padding-bottom: 40px;
 }
 
+.gears {
+    position: absolute;
+    right: -12vw;
+    top: 31vh;
+}
+.gearOne {
+    position: relative;
+    right: -50px;
+    bottom: 9px;
+    opacity: 0.5;
+    animation-name: gear-animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
 
+.gearTwo {
+    position: relative;
+    right: -50px;
+    opacity: 0.5;
+    animation-name: gear-animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.gearThree {
+    position: relative;
+    right: 95px;
+    top: 75px;
+    opacity: 0.5;
+    animation-name: gear-animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes gear-animate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} 
 
 
 .stack {
@@ -298,6 +346,10 @@
         width: 90%;
         padding: 0;
         margin-top: 67px;
+    }
+
+    .gears {
+        display: none;
     }
 }
 

@@ -7,7 +7,7 @@ import Bapz from "../assets/projects/bapzvscode.png";
 import Compiler from "../assets/projects/compiler.png";
 import Webmac from "../assets/projects/webmac.png"
 import Skills from '../components/Skills';
-
+import Gear from '../assets/img/gear.svg';
 
 const Home = () => {
 
@@ -22,6 +22,7 @@ const Home = () => {
             <div className={styles.container}>
                 <div className={styles.landing}>
                     <div>
+                        
                         <div style={{ fontFamily:'Verdana' , opacity:'0.5'}}>Hello! I am</div>
                         <div style={{ fontFamily:'Verdana'  , fontWeight:'bold' , fontSize:'2.5em'}}>AALACHI MOHAMED</div>
                         <div style={{ fontFamily:'Verdana' , fontSize:'3.5em' }}>a SOFTWARE ENGINEER</div>
@@ -29,6 +30,12 @@ const Home = () => {
                         <div style={{ display:'flex' , justifyContent:'center' , marginTop:'20px'}} >
                             <div className={styles.arrow}><img src="./arrow.svg" alt="arrow" width={20} style={{ marginRight:'15px' }} /></div>
                             <div style={{ fontFamily:'Courier New' , cursor:'pointer' }} onClick={scrollToAbout} >Know more</div>
+                        </div>
+
+                        <div className={styles.gears}>
+                            <img className={styles.gearOne} src={Gear} width={90}/>
+                            <img className={styles.gearTwo} src={Gear} width={90}/>
+                            <img className={styles.gearThree} src={Gear} width={90}/>
                         </div>
                     </div>
                 </div>
