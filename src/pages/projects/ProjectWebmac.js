@@ -1,8 +1,8 @@
-import TopBar from "../components/TopBar";
-import Footer from "../components/Footer";
-import styles from "./Projects.module.css";
-import Webmac from "../assets/projects/webmac.png";
-import Drag from "../assets/projects/dragbrrr.gif";
+import TopBar from "../../components/TopBar";
+import Footer from "../../components/Footer";
+import styles from "../Projects.module.css";
+import Webmac from "../../assets/projects/webmac.png";
+import Drag from "../../assets/projects/dragbrrr.gif";
 
 
 const ProjectWebmac = () => {

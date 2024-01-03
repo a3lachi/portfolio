@@ -1,7 +1,7 @@
-import TopBar from "../components/TopBar";
-import Footer from "../components/Footer";
-import styles from "./Projects.module.css";
-import Compiler from "../assets/projects/compiler.png";
+import TopBar from "../../components/TopBar";
+import Footer from "../../components/Footer";
+import styles from "../Projects.module.css";
+import Compiler from "../../assets/projects/compiler.png";
 
 
 const ProjectCompiler = () => {

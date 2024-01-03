@@ -1,7 +1,7 @@
-import TopBar from "../components/TopBar";
-import Footer from "../components/Footer";
-import styles from "./Projects.module.css";
-import Datano from "../assets/projects/datano.png" ;
+import TopBar from "../../components/TopBar";
+import Footer from "../../components/Footer";
+import styles from "../Projects.module.css";
+import Datano from "../../assets/projects/datano.png" ;
 
 
 

@@ -1,7 +1,7 @@
-import TopBar from "../components/TopBar";
-import Footer from "../components/Footer";
-import styles from "./Projects.module.css";
-import Dorker from "../assets/projects/dorker.gif"
+import TopBar from "../../components/TopBar";
+import Footer from "../../components/Footer";
+import styles from "../Projects.module.css";
+import Dorker from "../../assets/projects/dorker.gif"
 
 
 const ProjectDorker = () => {

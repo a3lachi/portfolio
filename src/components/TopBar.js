@@ -24,6 +24,15 @@ const TopBar = (props) => {
         }
       };
       
+    const goToBlog = async () => {
+        await Navigate('/');
+        const elem = document.getElementById("projectss");
+        if (elem) {
+            const yOffset = elem.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({ top: yOffset, behavior: 'smooth' });
+          }
+
+    }
       
     useEffect(()=> {
         var rot = document.getElementById("root")
@@ -36,7 +45,7 @@ const TopBar = (props) => {
         <div className={styles.topbar}>
             <div className={styles.container}>
                 <div onClick={returnToHome} className={styles.backbutton}>Back</div>
-                <Link className={styles.blog} to="/">Aalachi Mohamed's blog</Link>
+                <Link onClick={goToBlog} className={styles.blog} to="/">Aalachi Mohamed's blog</Link>
                 <div class="fantom-elememt"></div>
             </div>
         </div>

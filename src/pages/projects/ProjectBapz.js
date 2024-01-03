@@ -1,8 +1,8 @@
-import TopBar from "../components/TopBar";
-import Footer from "../components/Footer";
-import styles from "./Projects.module.css";
-import Bapz from "../assets/projects/bapz.gif"
-import BapzTwo from "../assets/projects/bapzvscode.png";
+import TopBar from "../../components/TopBar";
+import Footer from "../../components/Footer";
+import styles from "../Projects.module.css";
+import Bapz from "../../assets/projects/bapz.gif"
+import BapzTwo from "../../assets/projects/bapzvscode.png";
 
 const ProjectBapz = () => {
 

@@ -8,6 +8,7 @@ import Compiler from "../assets/projects/compiler.png";
 import Webmac from "../assets/projects/webmac.png"
 import Skills from '../components/Skills';
 import Gear from '../assets/img/gear.svg';
+import Calculator from "../assets/projects/calculator.png";
 
 const Home = () => {
 
@@ -125,6 +126,14 @@ const Home = () => {
                                         <img src={Webmac}  width={500}  />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Webmac</h3><p></p><p>A macOs style portfolio.</p><p></p></div>
+                                </div>
+                            </a>
+                            <a className={styles.projectWrapperSix}  href="/projects/calculator" >
+                                <div className={styles.project}>
+                                    <div className={styles.projectImage}>
+                                        <img src={Calculator}  width={500}  />
+                                    </div>
+                                    <div id="projectText" className={styles.projectText}><h3>Calculator</h3><p></p><p>A Java Calculator app.</p><p></p></div>
                                 </div>
                             </a>
                             {/* <a className={styles.projectWrapperSix}  href="https://app.com/projects/dorker" >

@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/Home';
-import ProjectDorker from './pages/ProjectDorker';
-import ProjectDatano from './pages/ProjectDatano';
-import ProjectBapz from './pages/ProjectBapz';
-import ProjectCompiler from './pages/ProjectCompiler';
+import ProjectDorker from './pages/projects/ProjectDorker';
+import ProjectDatano from './pages/projects/ProjectDatano';
+import ProjectBapz from './pages/projects/ProjectBapz';
+import ProjectCompiler from './pages/projects/ProjectCompiler';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ProjectWebmac from './pages/ProjectWebmac';
+import ProjectWebmac from './pages/projects/ProjectWebmac';
 import PostAuth from './pages/posts/PostAuth';
 import PostFront from './pages/posts/PostFront';
 import PostVim from './pages/posts/PostVim';
+import ProjectCalculator from './pages/projects/ProjectCalculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
         <Route path="/projects/bapz" element={<ProjectBapz />} />
         <Route path="/projects/compiler" element={<ProjectCompiler />} />
         <Route path="/projects/webmac" element={<ProjectWebmac />} />
+        <Route path="/projects/calculator" element={<ProjectCalculator />} />
 
         <Route path="/posts/vim" element={<PostVim />} />
         <Route path="/posts/auth" element={<PostAuth />} />
