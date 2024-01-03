@@ -30,7 +30,7 @@ const PostFront = () => {
                     </p>
 
                     <p>
-                        You can't build a dynamic or even static website without "knowing" CSS or HTML, you can code a compiler in any language following its algorithm, without prior knowledge of the language you use (it's unrecommended to do so though). A website is not an algorithm, it's more a creative design. The role of a front-end developer is to figure out how to turn the design to HTML (laughing out loud).
+                        You can't build a dynamic or even static website without "knowing" CSS or HTML, you can code a compiler in any language following its algorithm, without prior knowledge of the language you use (it's unrecommended to do so though). A website is not an algorithm, it's more a creative design. The role of a front-end developer is to figure out how to turn the design to HTML.
                     </p>
 
                     <p>

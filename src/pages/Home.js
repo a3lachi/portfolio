@@ -34,9 +34,9 @@ const Home = () => {
                         </div>
 
                         <div className={styles.gears}>
-                            <img className={styles.gearOne} src={Gear} width={90}/>
-                            <img className={styles.gearTwo} src={Gear} width={90}/>
-                            <img className={styles.gearThree} src={Gear} width={90}/>
+                            <img alt="gear" className={styles.gearOne} src={Gear} width={90}/>
+                            <img alt="gear" className={styles.gearTwo} src={Gear} width={90}/>
+                            <img alt="gear" className={styles.gearThree} src={Gear} width={90}/>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const Home = () => {
                             <Link className={styles.projectWrapperOne} to="/projects/dorker" >
                                 <div id="1" className={styles.project} >
                                     <div className={styles.projectImage}>
-                                        <img src="./dorker.png"/>
+                                        <img alt="dorker" src="./dorker.png"/>
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Google Crawler</h3><p></p><p>This project was requiring me to make a program that crawls Google and retrieve links using Selenium library in Python.</p><p></p></div>
                                 </div>
@@ -99,7 +99,7 @@ const Home = () => {
                             <Link className={styles.projectWrapperTwo} to="/projects/datano" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src={Datano} width={500} />
+                                        <img alt="datano" src={Datano} width={500} />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Image Annotation</h3><p></p><p>An image annotation tool built with React using Canvas. </p><p></p></div>
                                 </div>
@@ -107,7 +107,7 @@ const Home = () => {
                             <Link className={styles.projectWrapperThree}  to="/projects/bapz">
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src={Bapz} width={500}  />
+                                        <img alt="bapz" src={Bapz} width={500}  />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Full stack e-commerce</h3><p></p><p>I built this e-commerce website out of liking Bape clothing, I used Django in the backend and React in the frontend.</p><p></p></div>
                                 </div>
@@ -115,7 +115,7 @@ const Home = () => {
                             <a className={styles.projectWrapperFour}  href="/projects/compiler"  >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src={Compiler} width={500} />
+                                        <img alt="compiler" src={Compiler} width={500} />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Compiler</h3><p></p><p>This project involves the development of a compiled programming language in C.</p><p></p></div>
                                 </div>
@@ -123,7 +123,7 @@ const Home = () => {
                             <a className={styles.projectWrapperFive}  href="/projects/webmac" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src={Webmac}  width={500}  />
+                                        <img alt="webmac" src={Webmac}  width={500}  />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Webmac</h3><p></p><p>A macOs style portfolio.</p><p></p></div>
                                 </div>
@@ -131,7 +131,7 @@ const Home = () => {
                             <a className={styles.projectWrapperSix}  href="/projects/calculator" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
-                                        <img src={Calculator}  width={500}  />
+                                        <img alt="calc" src={Calculator}  width={500}  />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>Calculator</h3><p></p><p>A Java Calculator app.</p><p></p></div>
                                 </div>
