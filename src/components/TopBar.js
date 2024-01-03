@@ -8,13 +8,6 @@ const TopBar = (props) => {
 
     const Navigate = useNavigate() ;
 
-
-    // const returnToHome = async () => {
-    //     await Navigate('/');
-    //     var elem = document.getElementById(props.id);
-    //     elem.scrollIntoView();
-    // }
-
     const returnToHome = async () => {
         await Navigate('/');
         const elem = document.getElementById(props.id);
@@ -31,7 +24,6 @@ const TopBar = (props) => {
             const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
             window.scrollTo({ top: yyOffset, behavior: 'smooth' });
           }
-
     }
       
     useEffect(()=> {
