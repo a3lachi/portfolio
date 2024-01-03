@@ -20,10 +20,11 @@ const TopBar = (props) => {
     const goToBlog = async () => {
         await Navigate('/');
         const elem = document.getElementById("posts");
-        if (elem) {
-            const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
-            window.scrollTo({ top: yyOffset, behavior: 'smooth' });
-          }
+        elem.scrollIntoView({behavior:"smooth"});
+        // if (elem) {
+        //     const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
+        //     window.scrollTo({ top: yyOffset, behavior: 'smooth' });
+        // }
     }
       
     useEffect(()=> {

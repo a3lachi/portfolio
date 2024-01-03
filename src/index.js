@@ -13,6 +13,10 @@ import PostAuth from './pages/posts/PostAuth';
 import PostFront from './pages/posts/PostFront';
 import PostVim from './pages/posts/PostVim';
 import ProjectCalculator from './pages/projects/ProjectCalculator';
+import PostDebate from './pages/posts/PostDebate';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +35,7 @@ root.render(
         <Route path="/posts/vim" element={<PostVim />} />
         <Route path="/posts/auth" element={<PostAuth />} />
         <Route path="/posts/front" element={<PostFront />} />
+        <Route path="/posts/debate" element={<PostDebate />} />
 
 
       </Routes>

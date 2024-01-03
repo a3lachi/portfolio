@@ -154,6 +154,11 @@ const Home = () => {
                         <div className={styles.writes}>
                             <ul>
                                 <li>
+                                    <a className={styles.textHover} href="/posts/debate">Framework vs library vs package vs module : The debate
+                                        <span className={styles.date}>Jan 3, 2024</span>
+                                    </a>
+                                </li>
+                                <li>
                                     <a className={styles.textHover} href="/posts/front">Front-end development is not software engineering
                                         <span className={styles.date}>Dec 15, 2023</span>
                                     </a>
