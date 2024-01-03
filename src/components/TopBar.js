@@ -19,17 +19,17 @@ const TopBar = (props) => {
         await Navigate('/');
         const elem = document.getElementById(props.id);
         if (elem) {
-          const yOffset = elem.getBoundingClientRect().top + window.pageYOffset;
-          window.scrollTo({ top: yOffset, behavior: 'smooth' });
+          const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({ top: yyOffset, behavior: 'smooth' });
         }
       };
       
     const goToBlog = async () => {
         await Navigate('/');
-        const elem = document.getElementById("projectss");
+        const elem = document.getElementById("posts");
         if (elem) {
-            const yOffset = elem.getBoundingClientRect().top + window.pageYOffset;
-            window.scrollTo({ top: yOffset, behavior: 'smooth' });
+            const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({ top: yyOffset, behavior: 'smooth' });
           }
 
     }
