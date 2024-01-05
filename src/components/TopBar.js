@@ -3,7 +3,6 @@ import styles from './TopBar.module.css';
 import { useEffect } from "react";
 
 
-
 const TopBar = (props) => {
 
     const Navigate = useNavigate() ;
@@ -12,34 +11,28 @@ const TopBar = (props) => {
         await Navigate('/');
         const elem = document.getElementById(props.id);
         if (elem) {
-          const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
-          window.scrollTo({ top: yyOffset, behavior: 'smooth' });
+            elem.scrollIntoView({behavior:"smooth"});
         }
-      };
-      
+    };
+
     const goToBlog = async () => {
         await Navigate('/');
         const elem = document.getElementById("posts");
-        elem.scrollIntoView({behavior:"smooth"});
-        // if (elem) {
-        //     const yyOffset = elem.getBoundingClientRect().top + window.pageYOffset;
-        //     window.scrollTo({ top: yyOffset, behavior: 'smooth' });
-        // }
+        if (elem)
+            elem.scrollIntoView({behavior:"smooth",block: 'center'});
     }
       
     useEffect(()=> {
         var rot = document.getElementById("root")
-        console.log(rot)
         rot.scrollIntoView();
-        
-    })
+    },[props.id])
 
     return(
         <div className={styles.topbar}>
             <div className={styles.container}>
                 <div onClick={returnToHome} className={styles.backbutton}>Back</div>
                 <Link onClick={goToBlog} className={styles.blog} to="/">Aalachi Mohamed's blog</Link>
-                <div class="fantom-elememt"></div>
+                <div className="fantom-elememt"></div>
             </div>
         </div>
     )

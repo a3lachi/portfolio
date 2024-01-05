@@ -7,7 +7,7 @@ import Youtube from '../assets/img/youtube.svg';
 const Footer = () => {
 
     return(
-        <div  style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'10vh' }} >
+        <div id="footer" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'10vh' }} >
                 <div className={styles.contact}><p>Contact me by <a href="mailto:mad.aalachi@gmail.com">mail</a>
 <span className={styles.social}><a target="_blank" href="http://www.github.com/a3lachi"><img src={Github} width={20} /></a>
 <a target="_blank" href="https://www.linkedin.com/"><img src={Linkedin} width={20} /></a>
