@@ -14,6 +14,7 @@ import PostFront from './pages/posts/PostFront';
 import PostVim from './pages/posts/PostVim';
 import ProjectCalculator from './pages/projects/ProjectCalculator';
 import PostDebate from './pages/posts/PostDebate';
+import PostRest from './pages/posts/PostRest';
 
 
 
@@ -36,6 +37,7 @@ root.render(
         <Route path="/posts/auth" element={<PostAuth />} />
         <Route path="/posts/front" element={<PostFront />} />
         <Route path="/posts/debate" element={<PostDebate />} />
+        <Route path="/posts/rest" element={<PostRest />} />
 
 
       </Routes>

@@ -154,6 +154,11 @@ const Home = () => {
                         <div className={styles.writes}>
                             <ul>
                                 <li>
+                                    <a className={styles.textHover}  href="/posts/rest">What is a REST api ?
+                                        <span className={styles.date}>Jan 14, 2024</span>
+                                    </a>
+                                </li>
+                                <li>
                                     <a className={styles.textHover} href="/posts/debate">Framework vs library vs package vs module : The debate
                                         <span className={styles.date}>Jan 3, 2024</span>
                                     </a>
