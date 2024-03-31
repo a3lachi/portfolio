@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
-                        <img src={"/a3la.jpg"} alt="myphoto" width={700}  />
+                        <img src={"/a3la.jpg"} alt="myphoto" width={700} style={{borderRadius: '30px'}}  />
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Who am I</h2>
                             <p>I have always been passionate about building software, always strove to learn more, discover technologies
