@@ -62,6 +62,7 @@ const Home = () => {
                             <div className={styles.stack}>
                                 <div className={styles.lanzwrap } >
                                 <div className={styles.lanz}>
+                                    <LanBlock ext=".sql" lan="PLSQL" />
                                     <LanBlock ext=".py" lan="Python" />
                                     <LanBlock ext=".sh" lan="Bash" />
                                     <LanBlock ext=".js" lan="Javascript" />
@@ -69,7 +70,7 @@ const Home = () => {
                                     <LanBlock ext=".cpp" lan="C++" />
                                     <LanBlock ext=".java" lan="Java" />
                                     <LanBlock ext=".ts" lan="Typescript" />
-                                    <LanBlock ext=".sql" lan="PLSQL" />
+                                    <LanBlock ext=".go" lan="Go" />
                                     {/* <LanBlock ext=".rs" lan="Rust" />
                                     <LanBlock ext=".hs" lan="Haskell" /> */}
                                     
