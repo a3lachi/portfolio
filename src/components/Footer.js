@@ -13,7 +13,7 @@ const Footer = () => {
 <a target="_blank" href="https://www.linkedin.com/"><img src={Linkedin} width={20} /></a>
 <a target="_blank" href="https://www.youtube.com/channel/UC2A26hYnRVkNp1vn1eWSeCg"><img src={Youtube} width={20} /></a>
 <a target="_blank" href="https://twitter.com/a3laxi"><img src={Twitter} width={19} /></a></span>
-<span className={styles.copyright}>© 2023 - 2024</span></p></div>
+<span className={styles.copyright}>© 2023 - 2025</span></p></div>
                 </div>
 
     )

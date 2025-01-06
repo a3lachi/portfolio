@@ -121,14 +121,7 @@ const Home = () => {
                                     <div id="projectText" className={styles.projectText}><h3>Compiler</h3><p></p><p>This project involves the development of a compiled programming language in C.</p><p></p></div>
                                 </div>
                             </a>
-                            <a className={styles.projectWrapperFive}  href="/projects/webmac" >
-                                <div className={styles.project}>
-                                    <div className={styles.projectImage}>
-                                        <img alt="webmac" src={Webmac}  width={500}  />
-                                    </div>
-                                    <div id="projectText" className={styles.projectText}><h3>Webmac</h3><p></p><p>A macOs style portfolio.</p><p></p></div>
-                                </div>
-                            </a>
+                            
                             <a className={styles.projectWrapperSix}  href="/projects/calculator" >
                                 <div className={styles.project}>
                                     <div className={styles.projectImage}>
