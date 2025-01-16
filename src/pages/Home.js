@@ -70,7 +70,7 @@ const Home = () => {
                                     <LanBlock ext=".cpp" lan="C++" />
                                     <LanBlock ext=".java" lan="Java" />
                                     <LanBlock ext=".ts" lan="Typescript" />
-                                    <LanBlock ext=".go" lan="Go" />
+                                    
                                     {/* <LanBlock ext=".rs" lan="Rust" />
                                     <LanBlock ext=".hs" lan="Haskell" /> */}
                                     
