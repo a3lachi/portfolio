@@ -64,6 +64,7 @@ const Home = () => {
                                 <div className={styles.lanz}>
                                     <LanBlock ext=".sql" lan="PLSQL" />
                                     <LanBlock ext=".py" lan="Python" />
+                                    <LanBlock ext=".php" lan="PHP" />
                                     <LanBlock ext=".sh" lan="Bash" />
                                     <LanBlock ext=".js" lan="Javascript" />
                                     <LanBlock ext=".c" lan="C" />
