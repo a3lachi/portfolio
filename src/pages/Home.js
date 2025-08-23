@@ -94,7 +94,7 @@ const Home = () => {
                             <Link className={styles.projectWrapperServauth} to="/projects/servauth" >
                                 <div id="2" className={styles.project} >
                                     <div className={styles.projectImage}>
-                                        <img alt="servauth" src={ServAuth}/>
+                                        <img alt="servauth" src={ServAuth} width={400} />
                                     </div>
                                     <div id="projectText" className={styles.projectText}><h3>ServAuth</h3><p></p><p>Lightning fast authentication server.</p><p></p></div>
                                 </div>
