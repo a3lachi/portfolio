@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import ProjectDorker from './pages/projects/ProjectDorker';
 import ProjectDatano from './pages/projects/ProjectDatano';
 import ProjectBapz from './pages/projects/ProjectBapz';
+import ProjectServauth from './pages/projects/ProjectServauth';
 import ProjectCompiler from './pages/projects/ProjectCompiler';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -32,6 +33,7 @@ root.render(
         <Route path="/projects/compiler" element={<ProjectCompiler />} />
         <Route path="/projects/webmac" element={<ProjectWebmac />} />
         <Route path="/projects/calculator" element={<ProjectCalculator />} />
+        <Route path="/projects/servauth" element={<ProjectServauth />} />
 
         <Route path="/posts/vim" element={<PostVim />} />
         <Route path="/posts/auth" element={<PostAuth />} />

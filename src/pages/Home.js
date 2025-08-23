@@ -5,7 +5,8 @@ import Footer from '../components/Footer';
 import Datano from "../assets/projects/datano.png" ;
 import Bapz from "../assets/projects/bapzvscode.png";
 import Compiler from "../assets/projects/compiler.png";
-import Webmac from "../assets/projects/webmac.png"
+import Webmac from "../assets/projects/webmac.png";
+import ServAuth from "../assets/projects/servauth2.png";
 import Skills from '../components/Skills';
 import Gear from '../assets/img/gear.svg';
 import Calculator from "../assets/projects/calculator.png";
@@ -90,6 +91,14 @@ const Home = () => {
                     <div style={{ width:'760px' , paddingTop:'40px' , padding:'20px' , margin:'0 auto'}} >
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I have worked on</h2>
                         <div className={styles.projectsContainer}>
+                            <Link className={styles.projectWrapperServauth} to="/projects/servauth" >
+                                <div id="2" className={styles.project} >
+                                    <div className={styles.projectImage}>
+                                        <img alt="servauth" src={ServAuth}/>
+                                    </div>
+                                    <div id="projectText" className={styles.projectText}><h3>ServAuth</h3><p></p><p>Lightning fast authentication server.</p><p></p></div>
+                                </div>
+                            </Link>
                             <Link className={styles.projectWrapperOne} to="/projects/dorker" >
                                 <div id="1" className={styles.project} >
                                     <div className={styles.projectImage}>
