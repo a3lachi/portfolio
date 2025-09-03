@@ -63,7 +63,7 @@ const Home = () => {
                             <div className={styles.stack}>
                                 <div className={styles.lanzwrap } >
                                 <div className={styles.lanz}>
-                                    <LanBlock ext=".sql" lan="PLSQL" />
+                                    <LanBlock ext=".sql" lan="PL/pgSQL" />
                                     <LanBlock ext=".py" lan="Python" />
                                     <LanBlock ext=".php" lan="PHP" />
                                     <LanBlock ext=".sh" lan="Bash" />
