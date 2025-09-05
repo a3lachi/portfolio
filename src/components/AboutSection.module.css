@@ -39,17 +39,6 @@ h2 {
     width: 50%;
 }
 
-@media only screen and (max-width: 980px) {
-    .stackcontainer{
-        width: auto;
-    }
-
-    .stack{
-        width: 70%;
-    }
-}
-
-
 .lanz {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -60,5 +49,21 @@ h2 {
     margin: auto;
     margin-bottom: 25px;
 }
+
+@media only screen and (max-width: 980px) {
+    .stackcontainer{
+        width: auto;
+    }
+
+    .stack{
+        width: 70%;
+    }
+
+    .lanz {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
 
 
