@@ -12,6 +12,7 @@ import Gear from '../assets/img/gear.svg';
 import Calculator from "../assets/projects/calculator.png";
 
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 
 const Home = () => {
 
@@ -44,7 +45,8 @@ const Home = () => {
                     </div>
                 </div> */}
                 <HeroSection />
-                <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
+               
+            {/* <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
                         <img src={"/a3la.jpg"} alt="myphoto" width={700} style={{borderRadius: '30px'}}  />
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
                             <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Who am I</h2>
@@ -65,31 +67,27 @@ const Home = () => {
 
                             <div className={styles.stack}>
                                 <div className={styles.lanzwrap } >
-                                <div className={styles.lanz}>
-                                    <LanBlock ext=".sql" lan="PL/pgSQL" />
-                                    <LanBlock ext=".py" lan="Python" />
-                                    <LanBlock ext=".php" lan="PHP" />
-                                    <LanBlock ext=".sh" lan="Bash" />
-                                    <LanBlock ext=".js" lan="Javascript" />
-                                    <LanBlock ext=".c" lan="C" />
-                                    <LanBlock ext=".cpp" lan="C++" />
-                                    <LanBlock ext=".java" lan="Java" />
-                                    <LanBlock ext=".ts" lan="Typescript" />
-                                    
-                                    {/* <LanBlock ext=".rs" lan="Rust" />
-                                    <LanBlock ext=".hs" lan="Haskell" /> */}
-                                    
+                                    <div className={styles.lanz}>
+                                        <LanBlock ext=".sql" lan="PL/pgSQL" />
+                                        <LanBlock ext=".py" lan="Python" />
+                                        <LanBlock ext=".php" lan="PHP" />
+                                        <LanBlock ext=".sh" lan="Bash" />
+                                        <LanBlock ext=".js" lan="Javascript" />
+                                        <LanBlock ext=".c" lan="C" />
+                                        <LanBlock ext=".cpp" lan="C++" />
+                                        <LanBlock ext=".java" lan="Java" />
+                                        <LanBlock ext=".ts" lan="Typescript" />
+                                    </div>
                                 </div>
-                                </div>
-                                
-                                    
                             </div>
                         </div>
 
-                    <div>
-                    </div>
-                    
-                </div>
+                </div> */}
+
+                <AboutSection />
+                
+                
+                
                 <div  id="projectss" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
                     <div style={{ width:'760px' , paddingTop:'40px' , padding:'20px' , margin:'0 auto'}} >
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I have worked on</h2>
