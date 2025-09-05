@@ -11,6 +11,8 @@ import Skills from '../components/Skills';
 import Gear from '../assets/img/gear.svg';
 import Calculator from "../assets/projects/calculator.png";
 
+import HeroSection from '../components/HeroSection';
+
 const Home = () => {
 
     const scrollToAbout = () => {
@@ -22,7 +24,7 @@ const Home = () => {
   return (
     <main className={styles.main}>
             <div className={styles.container}>
-                <div className={styles.landing}>
+                {/* <div className={styles.landing}>
                     <div>
                         
                         <div style={{ fontFamily:'Verdana' , opacity:'0.5'}}>Hello! I am</div>
@@ -40,7 +42,8 @@ const Home = () => {
                             <img alt="gear" className={styles.gearThree} src={Gear} width={90}/>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <HeroSection />
                 <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
                         <img src={"/a3la.jpg"} alt="myphoto" width={700} style={{borderRadius: '30px'}}  />
                         <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
