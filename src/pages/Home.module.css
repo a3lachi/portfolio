@@ -24,56 +24,7 @@
 
 
 
-
-.about{
-    z-index: 2;
-    box-shadow: 0px -30px 40px -6px rgba(0, 0, 0, 0.44);
-    padding-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 40px;
-}
-
-.stack {
-    background-color: black;
-    width: 50vw;
-    height: auto;
-    position: relative;
-    margin: 0 auto;
-  }
   
-  .tools {
-    background-color: white;
-    font-size: 30px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    padding: 10px 10px;
-    /* border-right: 5px solid white;
-    border-bottom: 5px solid white; */
-  }
-  
-  .lanzwrap {
-    width: 60%;
-    margin: auto;
-    padding: 30px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  .lanz{
-    display: flex;
-    gap: 60px;
-    row-gap: 30px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
 
 .project{
     background-color: #fcfcfc;
@@ -273,12 +224,6 @@
 
     .projectWrapperSix {
         margin: 0;
-    }
-
-    .lanzwrap{
-        width: 90%;
-        padding: 0;
-        margin-top: 67px;
     }
 
 }

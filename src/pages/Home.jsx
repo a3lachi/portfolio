@@ -12,6 +12,7 @@ import Gear from '../assets/img/gear.svg';
 import Calculator from "../assets/projects/calculator.png";
 
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 
 const Home = () => {
 
@@ -24,72 +25,9 @@ const Home = () => {
   return (
     <main className={styles.main}>
             <div className={styles.container}>
-                {/* <div className={styles.landing}>
-                    <div>
-                        
-                        <div style={{ fontFamily:'Verdana' , opacity:'0.5'}}>Hello! I am</div>
-                        <div style={{ fontFamily:'Verdana'  , fontWeight:'bold' , fontSize:'2.5em'}}>AALACHI MOHAMED</div>
-                        <div style={{ fontFamily:'Verdana' , fontSize:'3.5em' }}>a SOFTWARE ENGINEER</div>
-
-                        <div style={{ display:'flex' , justifyContent:'center' , marginTop:'20px'}} >
-                            <div className={styles.arrow}><img src="./arrow.svg" alt="arrow" width={20} style={{ marginRight:'15px' }} /></div>
-                            <div style={{ fontFamily:'Courier New' , cursor:'pointer' }} onClick={scrollToAbout} >Know more</div>
-                        </div>
-
-                        <div className={styles.gears}>
-                            <img alt="gear" className={styles.gearOne} src={Gear} width={90}/>
-                            <img alt="gear" className={styles.gearTwo} src={Gear} width={90}/>
-                            <img alt="gear" className={styles.gearThree} src={Gear} width={90}/>
-                        </div>
-                    </div>
-                </div> */}
                 <HeroSection />
-                <div id='about' className={styles.about} style={{ marginTop:'100vh' , width:'100vw' , zIndex:'3',  backgroundColor:'black' , color:'white' , minHeight:'100vh'}} >
-                        <img src={"/a3la.jpg"} alt="myphoto" width={700} style={{borderRadius: '30px'}}  />
-                        <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
-                            <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Who am I</h2>
-                            <p>I have always been passionate about building software, always strove to learn more, discover technologies
-                            and understand the different paradigms behind each one of them. <span style={{fontWeight:'bold'}} className="bold">The goal of my journey
-                            is to understand the secrets behind good software</span> and its success.</p><p>As a result of this life long learning process, I am able to <span className="bold">design</span> and write
-                            <span style={{fontWeight:'bold'}} className="bold"> modular, expandable and clean software</span>. I always try to <span style={{fontWeight:'bold'}} className="bold">solve
-                            problems in a language agnostic-manner</span>, in order to choose the most suited technology to the
-                            problem at hand.</p><p><span style={{fontWeight:'bold'}} className="bold">I believe in this being the main purpose of a software engineer !</span></p>
-                        </div> 
-                        
-                        <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
-                            <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I believe in</h2>
-                            <Skills />
-                            </div>
-                        <div style={{ maxWidth:'760px' , paddingTop:'40px' , padding:'20px'}}>
-                            <h2 style={{ fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>Programming languages I use</h2>
-
-                            <div className={styles.stack}>
-                                <div className={styles.lanzwrap } >
-                                <div className={styles.lanz}>
-                                    <LanBlock ext=".sql" lan="PL/pgSQL" />
-                                    <LanBlock ext=".py" lan="Python" />
-                                    <LanBlock ext=".php" lan="PHP" />
-                                    <LanBlock ext=".sh" lan="Bash" />
-                                    <LanBlock ext=".js" lan="Javascript" />
-                                    <LanBlock ext=".c" lan="C" />
-                                    <LanBlock ext=".cpp" lan="C++" />
-                                    <LanBlock ext=".java" lan="Java" />
-                                    <LanBlock ext=".ts" lan="Typescript" />
-                                    
-                                    {/* <LanBlock ext=".rs" lan="Rust" />
-                                    <LanBlock ext=".hs" lan="Haskell" /> */}
-                                    
-                                </div>
-                                </div>
-                                
-                                    
-                            </div>
-                        </div>
-
-                    <div>
-                    </div>
-                    
-                </div>
+                <AboutSection />
+                
                 <div  id="projectss" style={{  width:'100vw' , backgroundColor:'white' , zIndex:'3' , color:'black' , minHeight:'100vh'}} >
                     <div style={{ width:'760px' , paddingTop:'40px' , padding:'20px' , margin:'0 auto'}} >
                         <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem'}}>What I have worked on</h2>
