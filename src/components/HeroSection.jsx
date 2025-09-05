@@ -13,7 +13,7 @@ const HeroSection = () => {
 
     return (
         <div className={styles.landing}>
-            <div>
+            <div className={styles.landingContainer}>
                 <div className={styles.greeting}>Hello! I am</div>
                 <div className={styles.name}>AALACHI MOHAMED</div>
                 <div className={styles.title}>a SOFTWARE ENGINEER</div>
