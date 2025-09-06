@@ -1,10 +1,5 @@
 import styles from './Home.module.css';
-import LanBlock from '../components/LanBlock';
 import Footer from '../components/Footer';
-import Webmac from "../assets/projects/webmac.png";
-import Skills from '../components/Skills';
-import Gear from '../assets/img/gear.svg';
-
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ProjectSection from '../components/ProjectsSection';
