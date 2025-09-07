@@ -8,7 +8,7 @@ const PostDebate = () => {
 
     return (
         <div>
-            <TopBar id="posts" />
+            <TopBar id="postss" />
 
             <div className={styles.postcontainer}>
                 <h1 className={styles.posttitle}>Framework vs library vs package vs module: The debate</h1>

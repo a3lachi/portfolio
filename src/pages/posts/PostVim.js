@@ -10,7 +10,7 @@ const PostVim = () => {
 
     return (
         <div>
-            <TopBar id="posts" />
+            <TopBar id="postss" />
 
                 <div className={styles.postcontainer}>
                     <h1 className={styles.posttitle}>What's all the hype around Vim ?</h1>

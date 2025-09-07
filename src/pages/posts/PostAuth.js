@@ -9,7 +9,7 @@ const PostAuth = () => {
 
     return (
         <div>
-            <TopBar id="posts" />
+            <TopBar id="postss" />
 
                 <div className={styles.postcontainer}>
                     <h1 className={styles.posttitle}>Should you implement Authentication yourself ?</h1>

@@ -10,7 +10,7 @@ const ProjectCompiler = () => {
 
     return (
         <div>
-            <TopBar id="projectss"  />
+            <TopBar id="projectss" />
 
             <div className={styles.postcontainer}>
                 <h1 className={styles.posttitle}>Compiler</h1>

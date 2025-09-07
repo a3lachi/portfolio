@@ -1,0 +1,81 @@
+.container{
+    width: 100vw;
+    background-color: black;
+    z-index: 3;
+    color: white;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.content{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    width: 90vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    font-size: 2rem;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.writes{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.writes ul {
+    padding: 20px;
+}
+
+.writes li {
+    position: relative;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-bottom: 1px dashed #ffffff;
+    margin-top: 30px;
+}
+
+.writes a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.date{
+    display: block;
+    width: 100%;
+    font-size: .7em;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.writes a:hover{
+    color: #4abdac;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.textHover {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  color: #0000;
+  background: linear-gradient(90deg,#C02942 calc(50% + 0.5ch),#000 0) right/calc(200% + 1ch) 100%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  animation: l7 2s infinite steps(11);
+}
+@keyframes l7 {to{background-position: left}}
+
