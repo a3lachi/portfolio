@@ -8,7 +8,7 @@ const Skills = () => {
 
     return (
         <div className={styles.skills}>
-            <div className={styles.skill}>
+            <div className={styles.skill} data-aos="fade-up" data-aos-delay="700">
                 <div className={styles.title}>
                     <h4>Good Design</h4>
                 </div>
@@ -18,7 +18,7 @@ const Skills = () => {
                 <p>The design is the most important phase of any software project. That's why I gathered important skill in
                             that field to be able to make good software.</p>
             </div>
-            <div className={styles.skill}>
+            <div className={styles.skill} data-aos="fade-up" data-aos-delay="800">
                 <div className={styles.title}>
                     <h4>Clean Development</h4>
                 </div>
@@ -27,7 +27,7 @@ const Skills = () => {
                 </i>
                 <p>The development phase can't be accomplished successfully without writing a code that checks all the requirement of a good one, like the K.I.S.S principle.</p>
             </div>
-            <div className={styles.skill}>
+            <div className={styles.skill} data-aos="fade-up" data-aos-delay="900">
                 <div className={styles.title}>
                     <h4>Quality Software</h4>
                 </div>

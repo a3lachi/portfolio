@@ -17,9 +17,19 @@ import ProjectCalculator from './pages/projects/ProjectCalculator';
 import PostDebate from './pages/posts/PostDebate';
 import PostRest from './pages/posts/PostRest';
 import { HelmetProvider } from 'react-helmet-async';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
+
+// Initialize AOS
+AOS.init({
+  duration: 800,
+  easing: 'ease-in-out',
+  once: true,
+  offset: 100
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
