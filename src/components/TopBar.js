@@ -3,23 +3,53 @@ import styles from './TopBar.module.css';
 import { useEffect } from "react";
 
 
+
 const TopBar = (props) => {
 
     const Navigate = useNavigate() ;
 
     const returnToHome = async () => {
         await Navigate('/');
-        const elem = document.getElementById(props.id);
-        if (elem) {
-            elem.scrollIntoView({behavior:"smooth"});
-        }
+        // Use multiple requestAnimationFrame calls and setTimeout fallback for better reliability
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    const elem = document.getElementById(props.id);
+                    if (elem) {
+                        console.log(`Scrolling to element with id: ${props.id}`);
+                        elem.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                            inline: "nearest"
+                        });
+                    } else {
+                        console.log(`Element with id "${props.id}" not found`);
+                    }
+                }, 100);
+            });
+        });
     };
 
     const goToBlog = async () => {
         await Navigate('/');
-        const elem = document.getElementById("posts");
-        if (elem)
-            elem.scrollIntoView({behavior:"smooth",block: 'center'});
+        // Use multiple requestAnimationFrame calls and setTimeout fallback for better reliability
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    const elem = document.getElementById("postss");
+                    if (elem){
+                        console.log('Scrolling to blog section');
+                        elem.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                            inline: "nearest"
+                        });
+                    } else {
+                        console.log('Blog section element not found');
+                    }
+                }, 100);
+            });
+        });
     }
       
     useEffect(()=> {
@@ -31,7 +61,7 @@ const TopBar = (props) => {
         <div className={styles.topbar}>
             <div className={styles.container}>
                 <div onClick={returnToHome} className={styles.backbutton}>Back</div>
-                <Link onClick={goToBlog} className={styles.blog} to="/">Aalachi Mohamed's blog</Link>
+                <div onClick={goToBlog} className={styles.blog}>Aalachi Mohamed's blog</div>
                 <div className="fantom-elememt"></div>
             </div>
         </div>

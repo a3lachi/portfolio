@@ -191,3 +191,45 @@
     transition: 1s;
     transform: scale(1.05);
 }
+
+
+@media only screen and (max-width: 980px) {
+    .projectsContainer a {
+      left: 0px;
+    }
+    .projectsContainer {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .projectWrapperOne {
+        margin: 0;
+    }
+
+    .projectWrapperTwo {
+        margin: 0;
+    }
+    .projectWrapperThree {
+        margin: 0;
+    }
+
+    .projectWrapperFour {
+        margin: 0;
+    }
+
+    .projectWrapperFive {
+        margin: 0;
+    }
+
+    .projectWrapperSix {
+        margin: 0;
+    }
+
+    .projectWrapperServauth{
+        margin-top: 20px;
+    }
+
+}

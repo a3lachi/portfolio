@@ -9,7 +9,7 @@ const PostRest = () => {
 
     return (
         <div>
-            <TopBar id="posts" />
+            <TopBar id="postss" />
 
             <div className={styles.postcontainer}>
                 <h1 className={styles.posttitle}>What is a REST api ?</h1>

@@ -9,7 +9,7 @@ const PostFront = () => {
 
     return (
         <div>
-            <TopBar id="posts" />
+            <TopBar id="postss" />
 
                 <div className={styles.postcontainer}>
                     <h1 className={styles.posttitle}>Front-end development is not software engineering</h1>

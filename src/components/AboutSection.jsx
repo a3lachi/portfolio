@@ -7,7 +7,7 @@ const AboutSection = () => {
 
     return (
         <div id='about' className={styles.about} >
-            <img src={"/a3la.jpg"} alt="myphoto" className={styles.myphoto} />
+            <img src={"/a3la.jpg"} alt="Aalachi Mohamed - Software Engineer Portfolio Photo" className={styles.myphoto} />
 
             <AboutSubSection>
                 <h2>Who am I</h2>

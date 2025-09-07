@@ -3,57 +3,66 @@ import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ProjectSection from '../components/ProjectsSection';
+import BlogSection from '../components/BlogSection';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
 
   return (
-    <main className={styles.main}>
-            <div className={styles.container}>
-                <HeroSection />
-                <AboutSection />
-                <ProjectSection />
-
-                <div id="posts" style={{  width:'100vw' , backgroundColor:'black' , zIndex:'3' , color:'white' , height:'auto' , paddingBottom:'50px'}} >
-                    <div style={{maxWidth:'960px' , margin:'0 auto'}}>
-                        <h2 style={{ width:'90vw' , fontFamily:'Verdana' , opacity:'0.5' , fontSize:'2rem' , padding:'20px' , paddingBottom:'0px'}}>Posts I have written</h2>
-                        <div className={styles.writes}>
-                            <ul>
-                                <li>
-                                    <a className={styles.textHover}  href="/posts/rest">What is a REST api ?
-                                        <span className={styles.date}>Jan 14, 2024</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className={styles.textHover} href="/posts/debate">Framework vs library vs package vs module : The debate
-                                        <span className={styles.date}>Jan 3, 2024</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className={styles.textHover} href="/posts/front">Front-end development is not software engineering
-                                        <span className={styles.date}>Dec 15, 2023</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className={styles.textHover} href="/posts/auth">Should you implement Authentication yourself?
-                                        <span className={styles.date}>Dec 6, 2023</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className={styles.textHover}  href="/posts/vim">What's all the hype around Vim ?
-                                        <span className={styles.date}>Nov 20, 2023</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <Footer />
-
-            </div>
-
-        
-    </main>
+    <>
+      <Helmet>
+        <title>Aalachi Mohamed - Software Engineer Portfolio</title>
+        <meta name="description" content="Aalachi Mohamed - Software Engineer specializing in full-stack development, modern web technologies, and clean code architecture. Portfolio featuring React, Python, Java, and C projects." />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Aalachi Mohamed",
+              "alternateName": "Mohamed Aalachi",
+              "jobTitle": "Software Engineer",
+              "description": "Software Engineer specializing in full-stack development, modern web technologies, and clean code architecture",
+              "url": "https://a3lachi.vercel.app/",
+              "image": "https://a3lachi.vercel.app/a3la.jpg",
+              "email": "mad.aalachi@gmail.com",
+              "sameAs": [
+                "https://www.github.com/a3lachi",
+                "https://www.linkedin.com/in/mohamed-aalachi-878479252/",
+                "https://www.youtube.com/channel/UC2A26hYnRVkNp1vn1eWSeCg",
+                "https://twitter.com/a3laxi"
+              ],
+              "knowsAbout": [
+                "Software Engineering",
+                "Full Stack Development",
+                "React",
+                "Python",
+                "Java",
+                "C",
+                "TypeScript",
+                "Bash",
+                "PL/pgSQL",
+                "Web Development",
+                "Clean Code",
+                "Software Architecture"
+              ],
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Software Engineer"
+              }
+            }
+          `}
+        </script>
+      </Helmet>
+      <main className={styles.main}>
+          <div className={styles.container}>
+              <HeroSection />
+              <AboutSection />
+              <ProjectSection />
+              <BlogSection />
+              <Footer />
+          </div>
+      </main>
+    </>
   );
 }
 
