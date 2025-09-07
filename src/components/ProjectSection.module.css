@@ -32,9 +32,13 @@
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
     overflow: hidden;
     position: relative;
-    transition: 0.3s;
-    transition: z-index 2s ease-out;
+    transition: all 0.4s ease-out;
+    transform: translateY(0);
+}
 
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .projectImage{
@@ -43,8 +47,16 @@
     position: relative;
     left: 50px;
     top: 50px;
-    transition: 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
 
+.projectImage img {
+    transition: all 0.4s ease-out;
+    transform: scale(1);
+}
+
+.project:hover .projectImage img {
+    transform: scale(1.05);
 }
 
 
