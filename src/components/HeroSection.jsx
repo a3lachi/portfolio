@@ -20,7 +20,7 @@ const HeroSection = () => {
 
                 <div className={styles.knowmoresection}>
                     <div className={styles.arrow}>
-                        <img src="./arrow.svg" alt="arrow" />
+                        <img src="./arrow.svg" alt="Navigation arrow icon" />
                     </div>
                     <div className={styles.knowmore} onClick={scrollToAbout} >
                         Know more
@@ -28,9 +28,9 @@ const HeroSection = () => {
                 </div>
 
                 <div className={styles.gears}>
-                    <img alt="gear" className={styles.gearOne} src={Gear} />
-                    <img alt="gear" className={styles.gearTwo} src={Gear} />
-                    <img alt="gear" className={styles.gearThree} src={Gear} />
+                    <img alt="Animated gear icon - Software engineering design element" className={styles.gearOne} src={Gear} />
+                    <img alt="Animated gear icon - Software engineering design element" className={styles.gearTwo} src={Gear} />
+                    <img alt="Animated gear icon - Software engineering design element" className={styles.gearThree} src={Gear} />
                 </div>
             </div>
         </div>
