@@ -26,7 +26,7 @@ const PostVim = () => {
                     <br></br><br></br>
                     <h2>Opening or creating a new file :</h2>
                     <p>Open your terminal and enter the following command :</p>
-                    <pre className={postVimStyles.code}>
+                    <pre className={postVimStyles.codex}>
                         <code>vim name_of_your_file</code>
                     </pre>
                     <p>This will open the file you specified, or the create a new one if it doesn’t exist. Once you do this you’ll find yourself in the normal mode. We are not writing text right away, first you need to know some basic Vim commands. A Vim command usually start by typing ‘:’ then the command, and the first one is exiting Vim since it’s the most asked question about Vim.</p>

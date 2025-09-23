@@ -62,6 +62,11 @@ h2 {
     .lanz {
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    .myphoto{
+        width: 300px;
+        border-radius: 30px;
+    }
 }
 
 
