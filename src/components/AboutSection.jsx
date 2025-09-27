@@ -6,7 +6,7 @@ import AboutSubSection from "./shared/AboutSubSection";
 const AboutSection = () => {
 
     return (
-        <div id='about' className={styles.about} data-aos="fade-in" data-aos-duration="1200">
+        <div id='about' className={styles.about} >
             <img 
                 src={"/a3la.jpg"} 
                 alt="Aalachi Mohamed - Software Engineer Portfolio Photo" 
