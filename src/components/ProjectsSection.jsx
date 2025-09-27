@@ -11,7 +11,7 @@ const ProjectSection = () => {
 
 
     return(
-        <div id="projectss" className={styles.container} data-aos="fade-up" data-aos-duration="800" data-aos-offset="200">
+        <div id="projectss" className={styles.container} >
             <div className={styles.content}>
                 <h2 data-aos="slide-down" data-aos-delay="200" data-aos-duration="600" data-aos-offset="150">What I have worked on</h2>
 

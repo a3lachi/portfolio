@@ -1,7 +1,7 @@
 .container{
     width: 100vw;
     background-color: white;
-    z-index: 9;
+    z-index: 90;
     color: black;
     min-height: 100vh;
 }
