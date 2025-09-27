@@ -1,5 +1,6 @@
 import Gear from '../assets/img/gear.svg';
 import styles from "./HeroSection.module.css";
+import ParticleSystem from './ParticleSystem';
 
 
 const HeroSection = () => {
@@ -13,6 +14,7 @@ const HeroSection = () => {
 
     return (
         <div className={styles.landing}>
+            <ParticleSystem />
             <div className={styles.landingContainer}>
                 <div className={styles.greeting}>Hello! I am</div>
                 <div className={styles.name}>AALACHI MOHAMED</div>
@@ -27,11 +29,11 @@ const HeroSection = () => {
                     </div>
                 </div>
 
-                <div className={styles.gears}>
+                {/* <div className={styles.gears}>
                     <img alt="Animated gear icon - Software engineering design element" className={styles.gearOne} src={Gear} />
                     <img alt="Animated gear icon - Software engineering design element" className={styles.gearTwo} src={Gear} />
                     <img alt="Animated gear icon - Software engineering design element" className={styles.gearThree} src={Gear} />
-                </div>
+                </div> */}
             </div>
         </div>
     )
