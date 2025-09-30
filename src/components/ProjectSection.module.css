@@ -15,7 +15,7 @@
 
 .content h2 {
     width: 90vw;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, 'DejaVu Sans', Arial, sans-serif;
     opacity: 0.5;
     font-size: 2rem;
 }
@@ -86,7 +86,7 @@
 }
 
 .projectText p{
-    font-family: "Verdana";
+    font-family: Verdana, Geneva, 'DejaVu Sans', Arial, sans-serif;
     padding: 20px;
     padding-top: 0;
     font-size: 0.8em;

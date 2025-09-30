@@ -3,7 +3,7 @@
 .topbar{
     padding: 20px 10px;
     text-align: center;
-    font-family: "Verdana";
+    font-family: Verdana, Geneva, 'DejaVu Sans', Arial, sans-serif;
     font-weight: bold;
 }
 
